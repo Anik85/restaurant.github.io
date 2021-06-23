@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <input type="checkbox" id="check">
+    <header>
+        <label for="check">
+            <i class="fas fa-bars" id="sidebar_btn"></i>
+        </label>
+        <div class="left_area">
+            <h3>Coding <span>Snow</span></h3>
+        </div>
+    </header>
+    <div class="sidebar">
+        <a href="#home-section" ><i class="fas fa-home"></i><span>Home</span></a>
+        <a href="#about-section" ><i class="fas fa-info-circle"></i><span>About</span></a>
+        <a href="#menu-section" ><i class="fas fa-table"></i><span>Menues</span></a>
+        <a href="#feedback-section" ><i class="fas fa-th"></i><span>Testimonials</span></a>
+        <a href="#chef-section" ><i class="fas fa-info-circle"></i><span>Chefs</span></a>
+        <a href="#contact-section" ><i class="fas fa-envelope"></i><span>Contact Us</span></a>
+    </div>
+    <section id="home-section">
+        <div class="home-inner"></div>
+        <div class="dark-overlay">
+            <div class="container">
+                <div class="home-text">
+                    <h2>Dine out Resturant</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur tempora sunt maxime perspiciatis et quis esse distinctio. Ipsa, dolore laborum!</p>
+                    <a href="#" class="btn btn-outline-light"> Book Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about-section">
+        <div class="container">
+            <div class="story">
+                <h5>our story</h5>
+                <h2>About Us</h2>
+            </div>
+            <div class="row d-flex">
+                <div class="col-md-6 mb-4" data-aos="fade-right">
+                    <h2 class="mb-4">Welcome To Our Resturant</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, soluta suscipit! Perferendis fugiat illo distinctio, voluptas praesentium doloremque porro maxime voluptatum autem esse ea quibusdam mollitia rerum. Ea, eaque optio.</p>
+                    <a href="#" class="btn btn-outline-light">About us</a>
+                </div>
+                <div class="col-md-6" data-aos="fade-left">
+                    <img src="img/pexels-cats-coming-406152.jpg" class="img-fluid rounded" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="menu-section" class="mb-3">
+        <div class="container">
+            <div class="story">
+                <h5>Order Now</h5>
+                <h2>Our Menus</h2>
+            </div>
+            <div class="button-container">
+                <div class="btn active" data-filter=".all">all</div>
+                <div class="btn" data-filter=".Lunch">Lunch</div>
+                <div class="btn" data-filter=".Dinner">Dinner</div>
+                <div class="btn" data-filter=".Drinks">Drinks</div>
+                <div class="btn" data-filter=".Dessert">Desserts</div>
+            </div>
+            <div class="row items mt-2">
+                <div class="col-md-6 box all Lunch" data-aos="fade-up">
+                    <div class="img-box">
+                        <img src="img/pexels-william-choquette-2641886.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="img-content">
+                        <a href=""><h2>Lunch Item</h2></a>
+                        <p>Tk: 100</p>
+                    </div>
+                </div>
+                <div class="col-md-6 box all Dinner" data-aos="fade-up">
+                    <div class="img-box">
+                        <img src="img/pexels-daria-shevtsova-704569.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="img-content">
+                        <a href="#"><h2>Dinner Item</h2></a>
+                        <p>Tk: 300</p>
+                    </div>
+                </div>
+                <div class="col-md-6 box all Lunch" data-aos="fade-up">
+                    <div class="img-box">
+                        <img src="img/pexels-pixabay-315755.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="img-content">
+                        <a href=""><h2>Lunch Item</h2></a>
+                        <p>Tk: 220</p>
+                    </div>
+                </div>
+                <div class="col-md-6 box all Dinner" data-aos="fade-up">
+                    <div class="img-box">
+                        <img src="img/pexels-pixabay-357573.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="img-content">
+                        <a href=""><h2>Dinner Item</h2></a>
+                        <p>Tk: 400</p>
+                    </div>
+                </div>
+                <div class="col-md-6 box all Drinks" data-aos="fade-up">
+                    <div class="img-box">
+                        <img src="img/pexels-william-choquette-2641886.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="img-content">
+                        <a href=""><h2>Drinks Item</h2></a>
+                        <p>Tk: 90</p>
+                    </div>
+                </div>
+                <div class="col-md-6 box all Dessert" data-aos="fade-up">
+                    <div class="img-box">
+                        <img src="img/pexels-william-choquette-2641886.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="img-content">
+                        <a href=""><h2>Dessert Item</h2></a>
+                        <p>Tk: 1100</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="feedback-section">
+        <div class="container">
+            <div class="story">
+                <h5>Testimonials</h5>
+                <h2>Some Feedbacks</h2>
+            </div>
+            <div class="row">
+                <div class="box" data-aos="fade-right">
+                    <div class="header">
+                        <h5>Samson Sanju</h5>
+                        <img src="img/pexels-cats-coming-406152.jpg" class="img-fluid" alt="">
+                        <p class="text-muted">Food Specialist</p>
+                        
+                    </div>
+                    <div class="body">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi eum illo neque adipisci, id ipsa natus itaque reiciendis perferendis fugiat.</p>
+                    </div>
+                    <div class="footer">
+                        <ul class="mb-0">
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="box" data-aos="fade-up">
+                    <div class="header">
+                        <h5>Samson Sanju</h5>
+                        <img src="img/pexels-cats-coming-406152.jpg" class="img-fluid" alt="">
+                        <p class="text-muted">Food Specialist</p>
+                        
+                    </div>
+                    <div class="body">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi eum illo neque adipisci, id ipsa natus itaque reiciendis perferendis fugiat.</p>
+                    </div>
+                    <div class="footer">
+                        <ul class="mb-0">
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="box" data-aos="fade-left">
+                    <div class="header">
+                        <h5>Samson Sanju</h5>
+                        <img src="img/pexels-cats-coming-406152.jpg" class="img-fluid" alt="">
+                        <p class="text-muted">Food Specialist</p>
+                        
+                    </div>
+                    <div class="body">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi eum illo neque adipisci, id ipsa natus itaque reiciendis perferendis fugiat.</p>
+                    </div>
+                    <div class="footer">
+                        <ul class="mb-0">
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="chef-section">
+        <div class="container">
+            <div class="story">
+                <h5>Team</h5>
+                <h2>Our Chefs</h2>
+            </div>
+            <div class="row">
+                <div class="box" data-aos="flip-left">
+                    <div class="img-box">
+                        <img src="img/febrian-zakaria-SiQgni-cqFg-unsplash.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="img-body">
+                        <h4>Sanju Samson</h4>
+                        <p class="text-muted">Special Chef</p>
+                    </div>
+                </div>
+                <div class="box" data-aos="zoom-in">
+                    <div class="img-box">
+                        <img src="img/jeff-siepman-z-IxdGQ7lPU-unsplash.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="img-body">
+                        <h4>Sanju Samson</h4>
+                        <p class="text-muted">Special Chef</p>
+                    </div>
+                </div>
+                <div class="box" data-aos="flip-left">
+                    <div class="img-box">
+                        <img src="img/mario-ciF10nRBW7o-unsplash.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="img-body">
+                        <h4>Sanju Samson</h4>
+                        <p class="text-muted">Special Chef</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="contact-section">
+        <div class="dark-overlay">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2>our Location</h2>
+                    <p>xyz street, sector-12</p>
+                    <p>agrabad,chittagong</p>
+                </div>
+                <div class="col-md-4">
+                    <h2>openning hours</h2>
+                    <p>monday to sunday</p>
+                    <p>9.00 A.M - 10.00 A.M</p>
+                </div>
+                <div class="col-md-4">
+                    <h2>Contact Us</h2>
+                    <p>+88018806****</p>
+                    <p>info@gmail.com</p>
+                </div>
+            </div>
+            <div class="detail">
+                <h4>@2021-Designed by Anik Barua</h4>
+            </div>
+        </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+        AOS.init({
+            offset: 230, // offset (in px) from the original trigger point
+            delay: 0, // values from 0 to 3000, with step 50ms
+            duration: 400,
+        });
+      </script>
+</body>
+</html>
